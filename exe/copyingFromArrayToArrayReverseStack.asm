@@ -1,5 +1,7 @@
 ; multi-segment executable file template.
 
+;Goal -> Berkay -> yakreB
+
 data segment   
     
      name1 db 'Berkay'
