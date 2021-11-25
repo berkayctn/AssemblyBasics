@@ -2,7 +2,7 @@ org 100h
 
 
 mov al,1
-mov bl,number
+mov bl,[number]
                
 mov cx,8               
                
@@ -10,7 +10,7 @@ loop1:
 
      inc bl
      mul bx
-     mov number2,ax
+     mov [number2],ax
      
                                                              
 loop loop1
