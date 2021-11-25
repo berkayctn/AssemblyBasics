@@ -46,8 +46,3 @@ loop loop1
 ends
 
 end start ; set entry point and stop the assembler.
-
-
-
-;name1 deki butun elemanlari pushla loop kullanarak
-;reverseName1 e baska bir loop kullanarak pop et
