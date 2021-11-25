@@ -3,7 +3,6 @@ org 100h
 
 mov al,1
 mov bl,number
-
                
 mov cx,8               
                
