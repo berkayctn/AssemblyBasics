@@ -37,10 +37,7 @@ loop1:
     
     
 loop loop1
-     
-    
-    
-        
+                 
     mov ax, 4c00h ; exit to operating system.
     int 21h    
 ends
