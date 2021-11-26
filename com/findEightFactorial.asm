@@ -4,7 +4,7 @@ org 100h
 mov al,1
 mov bl,[number]
                
-mov cx,8               
+mov cx,8    ; 40.320 (8!) < 65.536 (64kb)         
                
 loop1:
 
