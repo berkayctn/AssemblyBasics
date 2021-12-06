@@ -19,8 +19,6 @@ loop1:
  loop loop1                 
         
 
-  
-
 ret
  numbers1 db 2,4,5,3
  squareNumbers1 dw 4 dup(?)
