@@ -3,7 +3,7 @@
 data segment  
     
     numbers1 db 2,4,6,8
-    indeXPlusNumber db 4 dup(?)
+    indexPlusNumber db 4 dup(?)
     indexMinusNumber db 4 dup(?)
     
     
@@ -22,7 +22,7 @@ start:
    
     
     lea bx,numbers1
-    lea si,indeXPlusNumber    
+    lea si,indexPlusNumber     
     
     mov di,0
     mov al,0 
