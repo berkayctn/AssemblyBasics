@@ -17,7 +17,7 @@ div dl
 cmp ah,0
 je even 
 jmp odd
-jmp finish
+
 
   
   
